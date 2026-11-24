@@ -5,6 +5,7 @@ export const settings = {
     playersContainerSelector: '.player-container__player',
     logContainerSelector: '.log',
     controlDivSelector: '.controls',
+    attackBtnID: 'attack',
     actionsSelector: '.controls__btn',
     logItemSelector: '.log__item',
     hideElementClass: 'visuallyhidden',
@@ -20,7 +21,8 @@ export const settings = {
     remainingLifeMessage: (value) => `${value}% de vie restante`,
     actions: {
         attack: {
-            max_impact: -7, message(player, damage) {
+            max_impact: -7,
+            message(player, damage) {
                 return `<li class="log__item">${player.name} a subi une attaque simple de ${Math.abs(damage)}. Il en est à ${player.health}.</li>`;
             }
         }, special_attack: {

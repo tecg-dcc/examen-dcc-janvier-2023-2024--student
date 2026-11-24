@@ -1,15 +1,23 @@
 {
   "name": "examen-dcc-janvier-2023-2024--student",
   "version": "1.0.0",
-  "description": "> Examen DCC — janvier 2024",
+  "description": "Examen janvier 2024 fait en classe novembre 2026",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Daniel <daniel.schreurs@hepl.be>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tecg-dcc/examen-dcc-janvier-2023-2024--student.git"
+  },
+  "author": "Daniel Schreurs",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tecg-dcc/examen-dcc-janvier-2023-2024--student/issues"
+  },
+  "homepage": "https://github.com/tecg-dcc/examen-dcc-janvier-2023-2024--student#readme",
   "devDependencies": {
-    "sass-embedded": "^1.93.3",
-    "vite": "^7.2.6"
+    "sass-embedded": "^1.108.2",
+    "vite": "^8.3.8"
   }
 }
