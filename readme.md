@@ -24,7 +24,7 @@
 
     1. Mettez à jour le nom du premier joueur dans le tableau (`players[0].name`) en utilisant la valeur de l'input. Par exemple : `event.currentTarget.querySelector('input').value`. 👌
 
-    2. Mettez à jour le contenu textuel de la carte du premier joueur avec l'identifiant `#player-name` (cf. `strings.playerNameId`).
+    2. Mettez à jour le contenu textuel de la carte du premier joueur avec l'identifiant `#player-name` (cf. `settings.playerNameId`).
 
     3. Faites disparaître le formulaire en lui ajoutant la classe `visuallyhidden`.
 
@@ -59,7 +59,7 @@
 
    1. Affichez le formulaire `#play-game` en retirant la classe `visuallyhidden`.
    2. Cachez la `div.controls` en ajoutant la classe `visuallyhidden`.
-   3. Ajoutez un message dans le formulaire `#play-game` indiquant le perdant (utilisez `settings.messages.lost()`).
+   3. Ajoutez un message dans le formulaire `#play-game` indiquant le perdant (utilisez `settings.lostMessage()`).
 
     ![vérification-de-la-mort-des-joueurs](img/vérification-de-la-mort-des-joueurs.gif)
 
